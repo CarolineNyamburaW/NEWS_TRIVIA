@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block css %} 
+{{ super() }}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/home.css') }}">
+{% endblock %}
+
+{% block content %}
+
+    <body class="landing_page">
+
+        <div class="container"  >
+
+            <div class="all">
+
+                <div class="heading" >
+                    <h1 class="text-center">WELCOME TO NEWS TRIVIA</h1>
+                </div>
+
+                <div class="slogan text-center">
+                    <div><p class="slogan_text">Million News, One Apllication, News at your FingerTips</p></div>
+                    
+                    <div><a  href="/sources"><button type="button" class="btn btn-outline-danger" style="font-family: 'Old Standard TT', serif;" data-mdb-ripple-color="dark">
+                        VIEW OUR NEWS SITES
+                    </button></a> </div>
+                </div>
+            </div>
+
+        </div>
+            
+            
+
+    </body>
+
+{% endblock %}
