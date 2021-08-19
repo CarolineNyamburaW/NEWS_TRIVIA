@@ -9,7 +9,7 @@ class test_articles(unittest.TestCase):
     '''
     Set up method that will run before every Test
     '''
-    self.new_article= Articles("2021-08-10T04:01:00Z",' "https://cdn.vox-cdn.com/thumbor/f0vyQU4yPS3Q_YkajmFrSOnqpKs=/0x133:3768x2106/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22772464/1_Windows_on_Macbook_Pro_Parallels_Desktop_17_for_Mac.png','A thrilling new article','content','Awadh',' "https://www.theverge.com/2021/8/10/22617544/parallels-17-mac-windows-11-preview-emulation-performance-upgrades')
+    self.new_article= Articles("2021-08-18T17:00:00Z",' ""https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/b64f24febe8559c507071c6b8c420e80.jpg','This Mexican Butterwort Plant Can Help Solve Your Gnat Problem','Gnats and other small flies are annoying to get rid of. A small number of them is bad enough, but an infestation can mean a lot more effort. There are several remedies weve covered before, like apple… [+2452 chars]','Aisha Jordan',' ""https://lifehacker.com/this-mexican-butterwort-plant-can-help-solve-your-gnat-1847498754')
 
     def test_instance(self):
       self.assertTrue(isinstance(self.new_article, Articles))
