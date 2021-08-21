@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
 /* font-family: 'MonteCarlo', cursive; {for decoration }*/
 /* font-family: 'Old Standard TT', serif;  {for notes } */
 /* font-family: 'Aclonica', sans-serif; {for headings }*/
@@ -13,24 +13,34 @@
 }
 body{
    margin-left: 15vw;
-   text-shadow: 2px 2px 2px solid black;
-   background-color: #7799bb4f;
+   text-shadow: 2px 2px 2px solid blue;
+   background-color: rgb(10, 10, 10);
+   background: linear-gradient(
+    0deg
+    ,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://ak.picdn.net/shutterstock/videos/7906999/thumb/1.jpg"); 
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .mol{
     background-color: #7799bbbe;
 }
+h2{
+    font-family: 'Merriweather', serif; 
+    color: white;
+    margin-top: 5vh;
+}
 .tic{
-   font-family: 'Old Standard TT', serif; 
+    font-family: 'Merriweather', serif; 
 }
 .all{
-    font-family: 'Aclonica', sans-serif;  
+    font-family: 'Merriweather', serif;  
 }
 
 .card-title{
-    
-    font-family: 'Aclonica', sans-serif; 
+    font-family: 'Merriweather', serif; 
 }
 .btn{
-    font-family: 'Old Standard TT', serif;
-   
+    font-family: 'Merriweather', serif; 
 }

@@ -9,21 +9,21 @@
 {% block content %}
     <body>
         <div class="container">
-            <h2 style="font-family: 'Aclonica', sans-serif; "> New Articles</h2>
+            <h2 class="text-center" style="font-family: 'Merriweather', serif; "> OTHER NEWS ARTICLES</h2>
             <hr>
             <div class="row">
                 {% for article in articles %}
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2" style="width: 22rem;">
                     <img src="{{ article.title }}" class="card-img-top"
                     alt="...">
                     <div class="card-body">
-                        <h5 class="card-title ">{{ article.urlToImage }}</h5>
+                        <p class="card-title ">{{ article.urlToImage }}</p>
                         <p class = "text-muted">By:{{ article.author}}</p>
                         <h3 class="card-text">
                         {{ article.description | truncate(80) }}
                         </h3>
                         <p class="text">Created at: {{ article.publishedAt }};</p>
-                        <a href="{{article.url}}" class="btn btn-outline-danger" data-mdb-ripple-color="dark">continue..</a>
+                        <a href="{{article.url}}" class="btn btn-outline-danger" data-mdb-ripple-color="dark" style="border-radius: 10px;">Read More...</a>
                         
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import urllib.request,json
 from app.models import  News, Articles
 
 # Getting api key
-api_key = 'bc762445f3694294be352930fac05201'
+api_key = None
 # Getting the news base url
 base_url = None
 # Getting the articles_url base url
@@ -49,9 +49,12 @@ def process_results(news_list):
 
 
 
-def get_articles(source_id):
-    get_article_url = articles_url.format(source_id, api_key)
-
+def get_articles():
+    #    get_news_url = base_url.format(api_key)
+    # print(get_news_url)
+    # with urllib.request.urlopen(get_news_url) as url:
+    get_article_url = articles_url.format(api_key)
+    print(get_article_url)
     with urllib.request.urlopen(get_article_url) as url:
         get_articles_data = url.read()
         get_articles_response = json.loads(get_articles_data)

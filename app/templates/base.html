@@ -20,7 +20,10 @@
 </head>
 <body>
     <div class="container-fluid">
-        {% block content %} {% endblock %}
+        {% block content %}
+           {% block button %} {% endblock %}
+        {% endblock %}
+       
         {% block footer %} {% endblock %}
     </div>
     <!-- JQuery -->
