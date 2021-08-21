@@ -50,9 +50,6 @@ def process_results(news_list):
 
 
 def get_articles():
-    #    get_news_url = base_url.format(api_key)
-    # print(get_news_url)
-    # with urllib.request.urlopen(get_news_url) as url:
     get_article_url = articles_url.format(api_key)
     print(get_article_url)
     with urllib.request.urlopen(get_article_url) as url:

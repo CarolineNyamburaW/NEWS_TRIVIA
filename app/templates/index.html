@@ -12,13 +12,6 @@
         <h2 class="text-center all">OUR NEWS SOURCES</h2>
     </div>
 
-    {% block button %}
-            <div>
-            <a href=""><button  type="button" class="btn btn-outline-danger" style="border-radius: 10px; background-color: white !important;" data-mdb-ripple-color="dark">View Other Articles </button></a>
-            </div>
-
-     {% endblock %}
-
     <hr style="width: 79%; height: 10px; color: black; box-shadow: 5px solid black;">
     <div class="col container">
         <div class="row">
@@ -32,7 +25,7 @@
                                 <p class="card-text tic">
                                     {{all_news.description | truncate(60)}}
                                 </p>
-                                <a href="/articles/{{ all_news.id}}"><button  type="button" class="btn btn-outline-danger" style="border-radius: 10px;" data-mdb-ripple-color="dark">View {{all_news.name}} Articles</button></a>
+                                <a href="{{all_news.url}}"><button  type="button" class="btn btn-outline-danger" style="border-radius: 10px;" data-mdb-ripple-color="dark">View {{all_news.name}} Articles</button></a>
                             </div>
                         </div>
                     </div>

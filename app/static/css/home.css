@@ -21,7 +21,6 @@ p {font-family: 'Merriweather', serif; }
 }
 .all{
     position: relative;
-    top: 6rem;
     background-color: rgba(0,0,0,0.8);
     display: flex;
     margin: 60px auto 30px;

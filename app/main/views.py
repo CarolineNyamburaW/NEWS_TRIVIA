@@ -7,7 +7,7 @@ from . import main
 def home():
     return render_template('home.html')
  
-@main.route('/sources',)
+@main.route('/sources')
 def index():
     title = "Home|newsrun"
     all_news = get_news()
