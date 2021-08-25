@@ -7,10 +7,6 @@
 
 To get more help on python please visit https://www.python.org/.
 
-### Behaviour Driven Development
-| Our Program should handle                       | Input example | Output example                                   |
-|:------------------------------------------------|---------------|--------------------------------------------------|
-|Hide and show news and icons when clicked | button  | Text appear and disappears when clicked.|
 
 ## Known Bugs
 Want to contribute? Great!
