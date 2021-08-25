@@ -2,8 +2,7 @@
 -  This project was generated with [python](https://www.python.org/) 
 #### By **Caroline W. Nyambura**
 ## Description
-- This is a webapp created by eudes that allows you to check for the lattest news as it happens.
-
+- An application that will help users list and preview news articles from various sources.   
 ## Further help
 
 To get more help on python please visit https://www.python.org/.
